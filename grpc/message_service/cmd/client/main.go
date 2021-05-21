@@ -23,7 +23,7 @@ func AboutToSayIt(ctx context.Context, m p.MessageServiceClient,
 }
 
 func main() {
-	fmt.Println("version 0.15.0")
+	fmt.Println("version 0.15.0 after tag creation")
 	conn, err := grpc.Dial(port, grpc.WithInsecure())
 	if err != nil {
 		fmt.Println("Dial:", err)
